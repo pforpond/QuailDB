@@ -1,0 +1,58 @@
+XANDER'S QUAIL DATABASE CHANGELOG
+
+03/06/2023 - Version 0.4
+NEW FEATURES
+- New database automatically generated if no database file found.
+- Can now erase database from settings.
+- Database photo support and import.
+BUG FIXES
+- Fixed bug where catalog view would start at internal id 0 instead of 1, resulting in the first entry being blank.
+TWEAKS
+- Timing tweaks to update routine.
+- Creation of lists can now be canceled.
+- Editing quail entries no longer kicks you out of the current search/list/viewer.
+
+11/05/2023 - Version 0.3
+NEW FEATURES
+- Updater can now update icons.
+- Editor now displays previous values.
+- Settings menu.
+- New entry mode now has extra controls to go back a question or to quit entirely.
+- Dynamic list mode that can view data in a spreadsheet like format.
+BUG FIXES
+- Fixed bug where catalog view would pick up keystrokes from previous inputs.
+TWEAKS
+- List view renamed to catalog view in preparation of an actual list mode.
+- New icon.
+
+08/05/2023 - Version 0.2.1
+NEW FEATURES
+BUG FIXES
+- Fixed bug where list view would loop back to editor if a quail entry had been edited.
+- Fixed bug where quail age was incorrectly calculated.
+TWEAKS
+- Added extra startup loading messages.
+
+22/04/2023 - Version 0.2
+NEW FEATURES
+- Age calculation.
+- Displays total number of entries in internal ID value.
+- Support for quail weight specs.
+- Online updater.
+- Database backup made on startup.
+- Special developer mode for console usage. Console now hidden by default.
+- New entry form now ensures date of birth and death are valid dates.
+- Quail entry editor.
+BUG FIXES
+- Values from a failed add quail form are now erased and not held in memory for the search and entry viewer to pick up on.
+TWEAKS
+- Loop limiter to reduce CPU usage spikes.
+- More modular code layout.
+- Matching colours in the entry viewer.
+
+19/04/2023 - Version 0.1
+INITIAL BUILD
+- Database format created.
+- Simple name and hoop ID search.
+- Create new quail entry.
+- List entire database.
